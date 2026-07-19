@@ -1,0 +1,11 @@
+{
+  "model": "resnet50",
+  "checkpoint": "D:/Experiments/Kid/outputs_full-exps_e20_lr3e-4/checkpoints/resnet50_224_prep_pt_aug.pt",
+  "image_size": 224,
+  "use_preprocessing": true,
+  "use_pretrained": true,
+  "num_test_samples": 394,
+  "num_correct": 324,
+  "num_wrong": 70,
+  "selected_examples_csv": "outputs/cam_examples_resnet50_224_prep_pt/selected_examples.csv"
+}
